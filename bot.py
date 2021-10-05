@@ -14,7 +14,7 @@ import pyrogram
 
 
 
-if name == "__main__" :
+if name == "md-rename-bot" :
     if not os.path.isdir(Config.DOWNLOAD_LOCATION):
         os.makedirs(Config.DOWNLOAD_LOCATION)
     plugins = dict(
