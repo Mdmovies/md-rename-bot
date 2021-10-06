@@ -14,7 +14,7 @@ else:
     from config import Config
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 # the Strings used for this "thing"
-from translation import Translation
+
 
 
 async def progress_for_pyrogram(current, total, ud_type, message, start):
